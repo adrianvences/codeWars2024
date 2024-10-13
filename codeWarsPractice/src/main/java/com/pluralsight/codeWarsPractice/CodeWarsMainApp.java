@@ -6,7 +6,7 @@ public class CodeWarsMainApp {
     public static void main(String[] args) {
 //        WolfInSheepsClothing.warnTheSheep(new String[]{"sheep","wolf","sheep","wolf"});
 
-        int[] result = DogCatYears.ownedCatAndDog(84,20);
+        int[] result = DogCatYears.ownedCatAndDog(66,25);
         System.out.println(Arrays.toString(result));
 
     }
