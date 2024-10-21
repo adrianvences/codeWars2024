@@ -8,8 +8,8 @@ public class CodeWarsMainApp {
 
 //        int[] result = DogCatYears.ownedCatAndDog(66,25);
 //        System.out.println(Arrays.toString(result));
-
-        String result = PedalsCodeWars.howMuchILoveYou(12);
+        Object[] words = {"h","o","l","a"};
+        String result = ArrayElementsWithCommas.printArray(words);
         System.out.println(result);
 
     }
