@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class CodeWarsMainApp {
     public static void main(String[] args) {
-       int result = DigitalRoot.digital_root(132189);
-        System.out.println("digital root: " + result);
+       WeightSort weightSort = new WeightSort();
+       String example = WeightSort.orderWeight("100 180 90 56 65 74 68 86 99");
+
     }
 }
